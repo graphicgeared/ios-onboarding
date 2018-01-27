@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B727DB9B201B6E69004AF14E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B727DB9A201B6E69004AF14E /* AppDelegate.swift */; };
-		B727DB9D201B6E69004AF14E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B727DB9C201B6E69004AF14E /* ViewController.swift */; };
+		B727DB9D201B6E69004AF14E /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B727DB9C201B6E69004AF14E /* PageViewController.swift */; };
 		B727DBA2201B6E69004AF14E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B727DBA1201B6E69004AF14E /* Assets.xcassets */; };
 		B727DBB0201B6E69004AF14E /* ios_onboarding1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B727DBAF201B6E69004AF14E /* ios_onboarding1Tests.swift */; };
 		B727DBBB201B6E69004AF14E /* ios_onboarding1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B727DBBA201B6E69004AF14E /* ios_onboarding1UITests.swift */; };
@@ -41,7 +41,7 @@
 /* Begin PBXFileReference section */
 		B727DB97201B6E69004AF14E /* ios-onboarding1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-onboarding1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B727DB9A201B6E69004AF14E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B727DB9C201B6E69004AF14E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B727DB9C201B6E69004AF14E /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		B727DBA1201B6E69004AF14E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B727DBA6201B6E69004AF14E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B727DBAB201B6E69004AF14E /* ios-onboarding1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-onboarding1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,7 +110,7 @@
 				B727DBCE201B886D004AF14E /* Images */,
 				B727DB9A201B6E69004AF14E /* AppDelegate.swift */,
 				B727DBCC201B7503004AF14E /* RootViewController.swift */,
-				B727DB9C201B6E69004AF14E /* ViewController.swift */,
+				B727DB9C201B6E69004AF14E /* PageViewController.swift */,
 				B727DBD5201B8A68004AF14E /* PageItemViewController.swift */,
 				B727DBCA201B7109004AF14E /* Onboarding.storyboard */,
 				B727DBC8201B70D7004AF14E /* LaunchScreen.storyboard */,
@@ -285,7 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B727DB9D201B6E69004AF14E /* ViewController.swift in Sources */,
+				B727DB9D201B6E69004AF14E /* PageViewController.swift in Sources */,
 				B727DB9B201B6E69004AF14E /* AppDelegate.swift in Sources */,
 				B727DBD6201B8A68004AF14E /* PageItemViewController.swift in Sources */,
 				B727DBCD201B7503004AF14E /* RootViewController.swift in Sources */,

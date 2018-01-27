@@ -82,10 +82,10 @@
             </objects>
             <point key="canvasLocation" x="-1451.25" y="-887.32394366197184"/>
         </scene>
-        <!--View Controller-->
+        <!--Page View Controller-->
         <scene sceneID="HB6-a9-FDu">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="rF2-FP-4XN" customClass="ViewController" customModule="ios_onboarding1" customModuleProvider="target" sceneMemberID="viewController"/>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="rF2-FP-4XN" customClass="PageViewController" customModule="ios_onboarding1" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kzg-TC-L9a" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-626" y="-887"/>

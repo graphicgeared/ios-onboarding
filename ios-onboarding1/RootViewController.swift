@@ -16,12 +16,9 @@ class RootViewController: UIViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        getStartedButton.layer.backgroundColor = UIColor(red:0.30, green:0.58, blue:0.99, alpha:1.0).cgColor;
+        disableButon()
         getStartedButton.setTitleColor(.white, for: .normal)
         getStartedButton.layer.cornerRadius = 5;
-        
-        getStartedButton.addTarget(self, action: #selector(self.finish), for: .touchUpInside)
         skipButton.addTarget(self, action: #selector(self.finish), for: .touchUpInside)
     }
     
@@ -29,5 +26,15 @@ class RootViewController: UIViewController{
         let storyBoard = UIStoryboard(name: "Onboarding", bundle: nil)
         let vc = storyBoard.instantiateViewController(withIdentifier: "RootViewController") as! RootViewController
         self.present(vc, animated: true, completion: nil)
+    }
+    
+    func enableButon(){
+        getStartedButton.layer.backgroundColor = UIColor(red:0.30, green:0.58, blue:0.99, alpha:1.0).cgColor;
+        getStartedButton.addTarget(self, action: #selector(self.finish), for: .touchUpInside)
+    }
+    
+    func disableButon(){
+        getStartedButton.layer.backgroundColor = UIColor.gray.cgColor;
+        getStartedButton.removeTarget(self, action: nil, for: .touchUpInside)
     }
 }
